@@ -1,0 +1,37 @@
+/* Center the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the post list */
+  .post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+  }
+  
+  /* Style the individual posts */
+  .post {
+    margin: 20px;
+    max-width: 300px;
+  }
+  
+  .post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .post p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
